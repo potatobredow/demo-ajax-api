@@ -55,7 +55,7 @@ loadAllButton.addEventListener("click", function() {
 loadLipstickButton.addEventListener("click", function() {
 
     // Display loading message
-    productList.textContent = "Loading eyeshadow...";
+    productList.textContent = "Loading lipstick...";
 
     // Send AJAX GET request for product ID 4 for eyeshadow
     fetch(apiURL + "oneproduct.json")
